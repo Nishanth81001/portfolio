@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+html{
+    font-family:'Poppins';
+}
+
+.nav-item{
+    padding: 10px 20px;
+    
+}
+
+.navbar-brand{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-item a{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    transition: all 0.5s ease-in-out;
+}
+
+.file-container{
+    display:flex;
+    flex-direction: row;
+}
+
+.nav-item a:hover{
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-thickness: 2px;
+}
+
+.Contact-btn{
+    margin-left:10px;
+}
+
+.skill-icon{
+    margin-right:5px;
+}
+
+.skill-icon i{
+    color:#14A44D;
+}
+
+.frontend-skill-heading p,.backend-skill-heading p{
+    font-weight:bold;
+    font-size: 17px;
+}
+
+.css-skill-container{
+    border:1px dashed black;
+    border-radius:10px;
+}
+
+/* Custom gap for medium and large screens */
+.custom-gap .col-md-4 {
+    margin-right: 18px;
+    margin-left: 18px;
+}
+
+.custom-gap .col-sm-10 {
+    margin-top: 15px;
+    
+}
+
+/* Remove the margin for small screens */
+@media (max-width: 767px) {
+    .custom-gap .col-md-4 {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
